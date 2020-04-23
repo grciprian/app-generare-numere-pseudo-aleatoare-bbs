@@ -2,7 +2,8 @@
 
 ## Cerinte preliminare
 [Descarca si instaleaza Python3](https://www.python.org/downloads/)
-`Comenzile se executa din CMD in interiorul directorului proiectului clonat`
+
+`Comenzile urmatoare se executa din CMD in interiorul directorului proiectului clonat`
 
 ## Dezvoltare
 Dupa ce se cloneaza local proiectul, se executa
@@ -17,7 +18,7 @@ Se instaleaza `pyinstaller` folosind pip
 ```
 py -m pip install pyinstaller
 ```
-Se impacheteaz(pentru Windows) efectiv prin
+Se impacheteaza(pentru Windows) efectiv prin
 ```
 pyinstaller --onefile --noconsole .\AppGenerareNumerePseudoAleatoareBBS.py
 ```
